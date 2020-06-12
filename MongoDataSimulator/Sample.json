@@ -1,0 +1,3820 @@
+{
+  "_id": "ObjectId(\"5ec3a325b029e566d06ea2e1\")",
+  "draftNumber": "1TTI4WBEMT",
+  "InsuranceAgreement": {
+    "identifier": "0000070057504904",
+    "renewalDay": 1,
+    "renewalMounth": 6,
+    "effectivePeriod": {
+      "startDateTime": "ISODate(\"2020-06-19T00:00:00.000Z\")"
+    },
+    "creationDate": "ISODate(\"2020-05-19T09:13:09.376Z\")",
+    "effectiveHour": "0",
+    "effectiveMinute": "0",
+    "physicalObjectInAgreement": [
+      {
+        "_t": "InsuredVehicle",
+        "_id": "ObjectId(\"5ec3a204b029e566d06ea1f1\")",
+        "detentionPeriod": {
+          "unitCode": "YEAR",
+          "value": "-1"
+        },
+        "playsRole": {
+          "_t": "LandVehicle",
+          "plateNumber": "JM-698-KT",
+          "firstCirculationDate": "ISODate(\"2012-01-01T00:00:00.000Z\")",
+          "isBasedOnLandVehicleSpec": {
+            "vehicleSearchType": "MODEL",
+            "isCatalogued": {
+              "value": true
+            },
+            "makeLabel": "CITROEN",
+            "modelLabel": "C4 PICASSO",
+            "makeCode": "CI",
+            "modelCode": "CI-50",
+            "segment": "M2",
+            "group": "30",
+            "repairClass": "S",
+            "transmissionMode": "TR",
+            "passengerCapacityCount": "5",
+            "wheelbase": {
+              "unitCode": "mm",
+              "value": "2728"
+            },
+            "grossWeightMeasurement": {
+              "unitCode": "kg",
+              "value": "1420"
+            },
+            "ceePower": {
+              "unitCode": "kW",
+              "value": "82"
+            },
+            "realPower": {
+              "unitCode": "ch",
+              "value": "111"
+            },
+            "absIndicator": {
+              "value": true
+            },
+            "brakeType": "DD",
+            "rainIndicator": "0",
+            "windshieldType": "0",
+            "taxRatingHorsePower": {
+              "unitCode": "cv",
+              "value": "6"
+            },
+            "maxSpeed": {
+              "unitCode": "km/h",
+              "value": "181"
+            },
+            "energySource": "IDS",
+            "price": {
+              "amount": "29950"
+            },
+            "priceClass": "N",
+            "carSRACode": "CI50135",
+            "engineModel": {
+              "engineCapacityMeasurement": {
+                "unitCode": "cm3",
+                "value": "1560"
+              },
+              "fuelType": "GASOIL",
+              "fuelCode": "GO",
+              "cylindersCount": "4"
+            },
+            "gearBoxCode": "S",
+            "bodyStyle": "MSP",
+            "bodyStyleLabel": "MONOSPACE",
+            "commercialName": "1.6 HDI 110 EXCLUSIVE BMP6"
+          },
+          "acquisitionType": "CASH",
+          "antiTheftType": "S7",
+          "trackerIndicator": false,
+          "carRegistrationCertificate": {
+            "registrationIssueDate": "ISODate(\"2013-12-01T00:00:00.000Z\")"
+          },
+          "plateParkingCountry": "FRENCH_PLATE_REGISTRATION",
+          "maxAnnualDistanceMeasurementInterval": {
+            "intervalCode": "MORE_10000"
+          }
+        },
+        "effectivePeriod": {
+          "endDateTime": "ISODate(\"2020-05-20T00:00:00.000Z\")",
+          "startDateTime": "ISODate(\"2020-05-19T00:00:00.000Z\")"
+        },
+        "useMode": "PRIVATE",
+        "garagePlace": {
+          "garageType": "STREET",
+          "place": {
+            "_id": "ObjectId(\"5ec3a204b029e566d06ea1f0\")",
+            "cityName": "BRY SUR MARNE",
+            "inseeCode": "94015",
+            "postCode": "94360",
+            "streetName": "29 rue de la Marne",
+            "unstructuredStreetAddress": "¤¤¤29 RUE DE LA MARNE¤¤94360 BRY SUR MARNE¤FR",
+            "CoordinatesSource": {
+              "eventType": [
+                {
+                  "_id": "ObjectId(\"5ec3a237b029e566d06ea20d\")",
+                  "coefficientType": [
+                    {
+                      "_id": "ObjectId(\"5ec3a237b029e566d06ea20c\")",
+                      "coeffCode": "ZONEVALUE",
+                      "riskLevel": {
+                        "level": 114
+                      }
+                    }
+                  ],
+                  "eventTypeValue": "RC"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a237b029e566d06ea20f\")",
+                  "coefficientType": [
+                    {
+                      "_id": "ObjectId(\"5ec3a237b029e566d06ea20e\")",
+                      "coeffCode": "ZONEVALUE",
+                      "riskLevel": {
+                        "level": 208
+                      }
+                    }
+                  ],
+                  "eventTypeValue": "BDG"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a237b029e566d06ea211\")",
+                  "coefficientType": [
+                    {
+                      "_id": "ObjectId(\"5ec3a237b029e566d06ea210\")",
+                      "coeffCode": "ZONEVALUE",
+                      "riskLevel": {
+                        "level": 314
+                      }
+                    }
+                  ],
+                  "eventTypeValue": "IV"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a237b029e566d06ea213\")",
+                  "coefficientType": [
+                    {
+                      "_id": "ObjectId(\"5ec3a237b029e566d06ea212\")",
+                      "coeffCode": "ZONEVALUE",
+                      "riskLevel": {
+                        "level": 407
+                      }
+                    }
+                  ],
+                  "eventTypeValue": "DO"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a237b029e566d06ea215\")",
+                  "coefficientType": [
+                    {
+                      "_id": "ObjectId(\"5ec3a237b029e566d06ea214\")",
+                      "coeffCode": "ZONEVALUE",
+                      "riskLevel": {
+                        "level": 114
+                      }
+                    }
+                  ],
+                  "eventTypeValue": "SDC"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a237b029e566d06ea217\")",
+                  "coefficientType": [
+                    {
+                      "_id": "ObjectId(\"5ec3a237b029e566d06ea216\")",
+                      "coeffCode": "ZONEVALUE",
+                      "riskLevel": {
+                        "level": 114
+                      }
+                    }
+                  ],
+                  "eventTypeValue": "ASSPer"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a237b029e566d06ea219\")",
+                  "coefficientType": [
+                    {
+                      "_id": "ObjectId(\"5ec3a237b029e566d06ea218\")",
+                      "coeffCode": "ZONEVALUE",
+                      "riskLevel": {
+                        "level": 114
+                      }
+                    }
+                  ],
+                  "eventTypeValue": "ASSVeh"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a237b029e566d06ea21b\")",
+                  "coefficientType": [
+                    {
+                      "_id": "ObjectId(\"5ec3a237b029e566d06ea21a\")",
+                      "coeffCode": "ZONEVALUE",
+                      "riskLevel": {
+                        "level": 314
+                      }
+                    }
+                  ],
+                  "eventTypeValue": "CatNat"
+                }
+              ],
+              "coordinatesSource": ""
+            },
+            "recipientComplementLine": ""
+          }
+        },
+        "insuredVehicleNature": "ACTU"
+      }
+    ],
+    "hasA": [
+      {
+        "_t": "InsuredVehicleOwner",
+        "_id": "ObjectId(\"5ec3a204b029e566d06ea1f8\")",
+        "relationWithPrincipalDriver": "HIMSELF"
+      },
+      {
+        "_t": "SecondaryDriver",
+        "_id": "ObjectId(\"5ec3a2a3b029e566d06ea29f\")",
+        "relatedPerson": {
+          "birthDate": "ISODate(\"1975-06-19T00:00:00.000Z\")",
+          "relatedPersonName": {
+            "givenName": "Maurice",
+            "surname": "François"
+          },
+          "driverLicense": {
+            "registrationIssueDate": "ISODate(\"1995-06-19T00:00:00.000Z\")"
+          }
+        },
+        "relationWithPrincipalDriver": "SPOUSE",
+        "isInsuredIndicator": false
+      },
+      {
+        "_t": "PrincipalDriver",
+        "_id": "ObjectId(\"5ec3a204b029e566d06ea1f4\")",
+        "relatedPerson": {
+          "maritalStatus": "MARRIED",
+          "socioProfessionalClass": "SENIOR_EXEC_ENTERPRISE",
+          "birthDate": "ISODate(\"1974-01-01T11:00:00.000Z\")",
+          "relatedPersonName": {
+            "prefixTitle": "MR",
+            "givenName": "PATRICK",
+            "surname": "AUTOMATE"
+          },
+          "relatedPersonDetails": [
+            {
+              "_t": "DriverInsuranceExperience",
+              "_id": "ObjectId(\"5ec3a2297e273c7268bf93e1\")",
+              "personAgreementRecord": [
+                {
+                  "_id": "ObjectId(\"5ec3a2297e273c7268bf93e0\")",
+                  "companyName": "ALLIANZ_FRANCE",
+                  "terminationDate": "ISODate(\"2020-06-19T00:00:00.000Z\")",
+                  "agreementRecordType": "HIMSELF",
+                  "effectiveDuration": {
+                    "unitCode": "YEAR",
+                    "value": "10"
+                  },
+                  "agreementRecordPriorType": "PREVIOUS",
+                  "cancellationFormalitySendedIndicator": false
+                }
+              ],
+              "BMapplicableCoefficient": "0.50",
+              "BM50coefficientAwardDate": "ISODate(\"2008-06-01T00:00:00.000Z\")",
+              "BMacquiredCoefficient": "0.5",
+              "isInsured": true,
+              "_2yearInsuredMonthsCount": 24,
+              "_3yearClaimCount": 0,
+              "_3yearClaimIndicator": false,
+              "_3yearDrivingLicense45dSuspensCancelIndicator": false,
+              "_5yearDrunkOrDrugDrivingIndicator": false,
+              "_5yearDrunkDrivingIndicator": false,
+              "_5yearDrunkDrivingCount": 0,
+              "_3yearDrivingLicenceSuspensionIndicator": false,
+              "_3yearDrivingLicenceSuspensionCount": 0,
+              "_3yearDrivingLicenceDrunkSuspensionCount": 0,
+              "_3yearDrivingLicenceCancellationIndicator": false,
+              "_3yearDrivingLicenceCancellationCount": 0,
+              "_3yearDrivingLicenceDrunkCancellationCount": 0,
+              "_3yearLackOfInsuranceIndicator": false,
+              "insuredOver2YearIndicator": {},
+              "lastTermDate": "ISODate(\"2018-06-01T00:00:00.000Z\")",
+              "BMCalculatedCoefficient": "0.50",
+              "BM50coefficientApplicableDate": "ISODate(\"2008-06-01T10:00:00.000Z\")"
+            }
+          ],
+          "relatedFamily": {
+            "_id": "ObjectId(\"5ec3a204b029e566d06ea1f3\")",
+            "inChargeKidsCount": 2,
+            "driverLicenceCount": 2,
+            "_3YearNonInsuredDriverLicenceCount": 0,
+            "vehicleCount": 1
+          },
+          "driverLicense": {
+            "registrationIssueDate": "ISODate(\"1994-06-19T00:00:00.000Z\")",
+            "accompaniedPracticeType": "OTHER",
+            "country": "FRENCH_DRIVER_LICENSE"
+          }
+        },
+        "relationWithAgreementHolder": "HIMSELF",
+        "isChildOfAxaCarInsuredIndicator": {
+          "value": false
+        },
+        "driverHabitationQuality": "APARTMENT",
+        "driverHabitationOwnershipQuality": "HOME_OWNER"
+      },
+      {
+        "_t": "AgreementHolder",
+        "_id": "ObjectId(\"5ec3a204b029e566d06ea1f2\")",
+        "defaultBankAccount": {
+          "_id": "ObjectId(\"5ec3a392b029e566d06ea326\")",
+          "ibanCheckIdentifier": "76",
+          "AccountHolderName": "M AUTOMATE LeanFT",
+          "RIBaccountNumber": "12345678901",
+          "RIBbankCode": "30001",
+          "RIBkey": "85",
+          "RIBsortCode": "00794",
+          "unstructuredIBAN": "FR7630001007941234567890185",
+          "IBANCountryCode": "FR"
+        },
+        "relatedParty": {
+          "_t": "Person",
+          "prefersContact": {
+            "commercialActionsAcceptanceIndicator": false,
+            "prefersCellephone": "0622222230",
+            "prefersEmail": "PATRICKPERSONA.AUTOMATE@MONAUTO.FR"
+          },
+          "maritalStatus": "MARRIED",
+          "mailingAddress": {
+            "buildingLine": "",
+            "cityLine": "BRY SUR MARNE",
+            "countryLine": "FRANCE",
+            "postalCodeLine": "94360",
+            "recipientComplementLine": "",
+            "streetLine": "29 RUE DE LA MARNE"
+          },
+          "socioProfessionalClass": "SENIOR_EXEC_ENTERPRISE",
+          "birthDate": "ISODate(\"1974-01-01T11:00:00.000Z\")",
+          "relatedPersonName": {
+            "prefixTitle": "MR",
+            "givenName": "PATRICK",
+            "surname": "AUTOMATE"
+          },
+          "relatedPersonDetails": [
+            {
+              "_t": "DriverInsuranceExperience",
+              "_id": "ObjectId(\"5ec3a22c7e273c7268bf93e7\")",
+              "personAgreementRecordScore": [
+                {
+                  "_id": "ObjectId(\"5ec3a22c7e273c7268bf93e2\")",
+                  "count": 4,
+                  "code": "AUTO"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a22c7e273c7268bf93e3\")",
+                  "count": 0,
+                  "code": "GPC"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a22c7e273c7268bf93e4\")",
+                  "count": 0,
+                  "code": "MOTO"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a22c7e273c7268bf93e5\")",
+                  "count": 0,
+                  "code": "MRH"
+                },
+                {
+                  "_id": "ObjectId(\"5ec3a22c7e273c7268bf93e6\")",
+                  "count": 4,
+                  "code": "AXA"
+                }
+              ]
+            }
+          ],
+          "effectivePeriodAtAXA": {
+            "endDateTime": "ISODate(\"2020-05-19T10:00:00.000Z\")",
+            "startDateTime": "ISODate(\"2020-05-04T10:00:00.000Z\")"
+          }
+        },
+        "cancellationFormalityByAXA": true,
+        "distribCustomer": {
+          "clientID": "4310690506",
+          "webIdentifiant": "900404164",
+          "customerScore": "1",
+          "isProspect": false,
+          "agreementResumes": [
+            {
+              "_id": "ObjectId(\"5ec3a22c7e273c7268bf93e8\")",
+              "agreementIdentifier": "0000070057456904",
+              "agreementType": "AUTO"
+            },
+            {
+              "_id": "ObjectId(\"5ec3a22c7e273c7268bf93e9\")",
+              "agreementIdentifier": "0000070057460804",
+              "agreementType": "AUTO"
+            },
+            {
+              "_id": "ObjectId(\"5ec3a22c7e273c7268bf93ea\")",
+              "agreementIdentifier": "0000070057494204",
+              "agreementType": "AUTO"
+            },
+            {
+              "_id": "ObjectId(\"5ec3a22c7e273c7268bf93eb\")",
+              "agreementIdentifier": "0000070057504504",
+              "agreementType": "AUTO"
+            }
+          ]
+        }
+      },
+      {
+        "_t": "Distributor",
+        "_id": "ObjectId(\"5ec3a204b029e566d06ea1f7\")",
+        "distributorType": "AgentGeneral",
+        "distributionCanal": "AGENTS_GENERAUX",
+        "principalOfficePlace": {
+          "_id": "ObjectId(\"5ec3a204b029e566d06ea1f5\")",
+          "postCode": "69172"
+        },
+        "axaRegion": "67",
+        "authorizationComponent": [
+          {
+            "_id": "ObjectId(\"5ec3a204b029e566d06ea1f6\")",
+            "authorizationCode": "DISTRIB",
+            "authorizationLevel": "100"
+          }
+        ],
+        "agencyNumber": "0002569504"
+      }
+    ],
+    "includesComponent": [
+      {
+        "_t": "CommercialActionComponent",
+        "_id": "ObjectId(\"5ec3a22db029e566d06ea20b\")",
+        "effectivePeriod": {
+          "startDateTime": "ISODate(\"2020-03-11T23:00:00.000Z\")"
+        },
+        "commercialActionType": "CTPDISTRIB",
+        "technicalCoefficient": "71"
+      },
+      {
+        "_t": "CommercialActionComponent",
+        "_id": "ObjectId(\"5ec3a2887e273c7268bf9474\")",
+        "code": "DEDUCTED_CC",
+        "rebateAmount": {
+          "amount": "0"
+        },
+        "commercialActionType": "REBATE"
+      },
+      {
+        "_t": "CommercialActionComponent",
+        "_id": "ObjectId(\"5ec3a2887e273c7268bf9476\")",
+        "code": "CT_SIEGE_APPLICABLE",
+        "commercialActionType": "CT",
+        "technicalCoefficient": "0.94"
+      },
+      {
+        "_t": "CommercialActionComponent",
+        "_id": "ObjectId(\"5ec3a287b029e566d06ea25f\")",
+        "code": "CT_SIEGE",
+        "commercialActionType": "CT",
+        "technicalCoefficient": "0.94"
+      },
+      {
+        "_t": "CommercialActionComponent",
+        "_id": "ObjectId(\"5ec3a2a3b029e566d06ea2a0\")",
+        "code": "GRANTED_CC",
+        "commercialActionType": "REBATE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea30d\")",
+        "isSelected": false,
+        "premium": {
+          "amount": {
+            "amount": "20.8"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "26.13"
+          }
+        },
+        "coverageCode": "ELG_Expert",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "OPTION",
+        "rank": 7,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "27.79"
+          }
+        }
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea313\")",
+        "isSelected": false,
+        "premium": {
+          "amount": {
+            "amount": "52.39"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "61.79"
+          }
+        },
+        "coverageCode": "EQT",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "OPTION",
+        "rank": 5,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "65.74"
+          }
+        }
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea317\")",
+        "isSelected": false,
+        "premium": {
+          "amount": {
+            "amount": "42.29"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "53.1"
+          }
+        },
+        "coverageCode": "ELG_Novice",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "OPTION",
+        "rank": 6,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "56.49"
+          }
+        }
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea31a\")",
+        "isSelected": false,
+        "premium": {
+          "amount": {
+            "amount": "36.01"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "42.47"
+          }
+        },
+        "coverageCode": "CVH",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "OPTION",
+        "rank": 4,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "45.18"
+          }
+        }
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea31b\")",
+        "isSelected": false,
+        "premium": {
+          "amount": {
+            "amount": "18.79"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "21.31"
+          }
+        },
+        "coverageCode": "PJ",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "OPTION",
+        "rank": 3,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "22.67"
+          }
+        }
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf94f6\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf94f5\")",
+            "coverageDeductibleCode": "FR_IV",
+            "coverageDeductibleLabel": "Evènement climatique",
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "ATTENTAT",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf94f8\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf94f7\")",
+            "coverageDeductibleCode": "FR_IV",
+            "coverageDeductibleLabel": "Evènement climatique",
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "Clim",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf94fa\")",
+        "isSelected": true,
+        "coverageCode": "ELT_DO",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf94f9\")",
+            "coverageDeductibleCode": "FR_DO",
+            "coverageDeductibleLabel": "Franchise Dommages",
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "DO",
+        "correspondingUTCode": "00054",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf94fc\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf94fb\")",
+            "coverageDeductibleCode": "FR_AVP",
+            "coverageDeductibleLabel": "en cas de panne",
+            "coverageDeductibleValue": "0",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "km"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "ASSVeh",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf94fe\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf94fd\")",
+            "coverageLimitCode": "PL_DEP",
+            "coverageLimitLabel": "frais de dépannage",
+            "coverageLimitValue": "153",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "ASSVeh",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf94ff\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AP",
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "ASSVeh",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9501\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9500\")",
+            "coverageDeductibleCode": "FR_AVA",
+            "coverageDeductibleLabel": "en cas d'accident",
+            "coverageDeductibleValue": "0",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "km"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "ASSVeh",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9503\")",
+        "isSelected": true,
+        "coverageCode": "ELT_DR",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9502\")",
+            "coverageDeductibleCode": "FR_DR",
+            "coverageDeductibleLabel": "Seuil d'intervention",
+            "coverageDeductibleValue": "300",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "DR",
+        "correspondingUTCode": "00024",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9505\")",
+        "isSelected": true,
+        "coverageCode": "ELT_DR",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9504\")",
+            "coverageLimitCode": "PL_DR",
+            "coverageLimitLabel": "Plafond de la garantie DPRSA",
+            "coverageLimitValue": "20000",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "DR",
+        "correspondingUTCode": "00024",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9507\")",
+        "isSelected": true,
+        "coverageCode": "ELT_GC",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9506\")",
+            "coverageDeductibleCode": "FR_GC2",
+            "coverageDeductibleLabel": "AIPP (taux IPP)",
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "pourcentage"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "SDC",
+        "correspondingUTCode": "05984",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9509\")",
+        "isSelected": true,
+        "coverageCode": "ELT_GC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9508\")",
+            "coverageLimitCode": "PL_GC2",
+            "coverageLimitLabel": "Capital G.P.C",
+            "coverageLimitValue": "1000000",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "SDC",
+        "correspondingUTCode": "05984",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf950b\")",
+        "isSelected": true,
+        "coverageCode": "ELT_GC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf950a\")",
+            "coverageLimitCode": "PL_DC",
+            "coverageLimitLabel": "avance en cas de décès",
+            "coverageLimitValue": "3000",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "SDC",
+        "correspondingUTCode": "05984",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf950d\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IV",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf950c\")",
+            "coverageDeductibleCode": "FR_IV",
+            "coverageDeductibleLabel": "Franchise IV",
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "IV",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf950f\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf950e\")",
+            "coverageLimitCode": "PL_VOL",
+            "coverageLimitLabel": "VOL VHR",
+            "coverageLimitValue": "30",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9511\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9510\")",
+            "coverageLimitCode": "PL_ACC",
+            "coverageLimitLabel": "INC/ACC VHR",
+            "coverageLimitValue": "15",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9513\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9512\")",
+            "coverageLimitCode": "PL_PAN",
+            "coverageLimitLabel": "panne VHR",
+            "coverageLimitValue": "7",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9515\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9514\")",
+            "coverageLimitCode": "PL_VOL",
+            "coverageLimitLabel": "VOL VHR",
+            "coverageLimitValue": "30",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9517\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9516\")",
+            "coverageLimitCode": "PL_PAN",
+            "coverageLimitLabel": "panne VHR",
+            "coverageLimitValue": "7",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9519\")",
+        "isSelected": true,
+        "coverageCode": "ELT_DO",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9518\")",
+            "coverageLimitCode": "PL_VAN",
+            "coverageLimitLabel": "valeur d'achat",
+            "coverageLimitValue": "24",
+            "coverageLimitUnit": "mois"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "DO",
+        "correspondingUTCode": "00054",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf951b\")",
+        "isSelected": true,
+        "coverageCode": "ELT_DO",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf951a\")",
+            "coverageLimitCode": "PL_VAD",
+            "coverageLimitLabel": "VAD+% min",
+            "coverageLimitValue": "20",
+            "coverageLimitUnit": "pourcentage",
+            "coverageLimitMinMinValue": "1000"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "DO",
+        "correspondingUTCode": "00054",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf951d\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf951c\")",
+            "coverageLimitCode": "PL_VAN",
+            "coverageLimitLabel": "valeur d'achat",
+            "coverageLimitValue": "24",
+            "coverageLimitUnit": "mois"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "ATTENTAT",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf951f\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf951e\")",
+            "coverageLimitCode": "PL_VAD",
+            "coverageLimitLabel": "VAD+% min",
+            "coverageLimitValue": "20",
+            "coverageLimitUnit": "pourcentage",
+            "coverageLimitMinMinValue": "1000"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "ATTENTAT",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9521\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9520\")",
+            "coverageLimitCode": "PL_VAN",
+            "coverageLimitLabel": "valeur d'achat",
+            "coverageLimitValue": "24",
+            "coverageLimitUnit": "mois"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "IV",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9523\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9522\")",
+            "coverageLimitCode": "PL_VAD",
+            "coverageLimitLabel": "VAD+% min",
+            "coverageLimitValue": "20",
+            "coverageLimitUnit": "pourcentage",
+            "coverageLimitMinMinValue": "1000"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "IV",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9525\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IR",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9524\")",
+            "coverageLimitCode": "PL_VAN",
+            "coverageLimitLabel": "valeur d'achat",
+            "coverageLimitValue": "24",
+            "coverageLimitUnit": "mois"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "IND",
+        "correspondingUTCode": "00054",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9527\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IR",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9526\")",
+            "coverageLimitCode": "PL_VAD",
+            "coverageLimitLabel": "VAD+% min",
+            "coverageLimitValue": "20",
+            "coverageLimitUnit": "pourcentage",
+            "coverageLimitMinMinValue": "1000"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "IND",
+        "correspondingUTCode": "00054",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9529\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9528\")",
+            "coverageLimitCode": "PL_VAN",
+            "coverageLimitLabel": "valeur d'achat",
+            "coverageLimitValue": "24",
+            "coverageLimitUnit": "mois"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "Clim",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf952b\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf952a\")",
+            "coverageLimitCode": "PL_VAD",
+            "coverageLimitLabel": "VAD+% min",
+            "coverageLimitValue": "20",
+            "coverageLimitUnit": "pourcentage",
+            "coverageLimitMinMinValue": "1000"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "Clim",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf952d\")",
+        "isSelected": true,
+        "coverageCode": "ELT_CN",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf952c\")",
+            "coverageLimitCode": "PL_VAN",
+            "coverageLimitLabel": "valeur d'achat",
+            "coverageLimitValue": "24",
+            "coverageLimitUnit": "mois"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "CatNat",
+        "correspondingUTCode": "00084",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf952f\")",
+        "isSelected": true,
+        "coverageCode": "ELT_CN",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf952e\")",
+            "coverageLimitCode": "PL_VAD",
+            "coverageLimitLabel": "VAD+% min",
+            "coverageLimitValue": "20",
+            "coverageLimitUnit": "pourcentage",
+            "coverageLimitMinMinValue": "1000"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "CatNat",
+        "correspondingUTCode": "00084",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9531\")",
+        "isSelected": true,
+        "coverageCode": "ELT_CT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9530\")",
+            "coverageLimitCode": "PL_VAN",
+            "coverageLimitLabel": "valeur d'achat",
+            "coverageLimitValue": "24",
+            "coverageLimitUnit": "mois"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "CatTec",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9533\")",
+        "isSelected": true,
+        "coverageCode": "ELT_CT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9532\")",
+            "coverageLimitCode": "PL_VAD",
+            "coverageLimitLabel": "VAD+% min",
+            "coverageLimitValue": "20",
+            "coverageLimitUnit": "pourcentage",
+            "coverageLimitMinMinValue": "1000"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "CatTec",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9535\")",
+        "isSelected": true,
+        "coverageCode": "ELT_RC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9534\")",
+            "coverageLimitCode": "PL_MAT",
+            "coverageLimitLabel": "RC materielle",
+            "coverageLimitValue": "100000000",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "RC",
+        "correspondingUTCode": "00014",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9537\")",
+        "isSelected": true,
+        "coverageCode": "ELT_RC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9536\")",
+            "coverageLimitCode": "PL_COR",
+            "coverageLimitLabel": "RC corporelle",
+            "coverageLimitType": "illimite"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "RC",
+        "correspondingUTCode": "00014",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9539\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9538\")",
+            "coverageLimitCode": "PL_VOL",
+            "coverageLimitLabel": "en cas de vol",
+            "coverageLimitValue": "30",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf953b\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf953a\")",
+            "coverageLimitCode": "PL_ACC",
+            "coverageLimitLabel": "en cas d'accident",
+            "coverageLimitValue": "15",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf953d\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf953c\")",
+            "coverageLimitCode": "PL_PAN",
+            "coverageLimitLabel": "en cas de panne",
+            "coverageLimitValue": "7",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf953f\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf953e\")",
+            "coverageLimitCode": "PL_IND",
+            "coverageLimitLabel": "montant indemnisation par jour",
+            "coverageLimitValue": "40",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9541\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9540\")",
+            "coverageLimitCode": "PL_VOL",
+            "coverageLimitLabel": "VOL VHR",
+            "coverageLimitValue": "30",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9543\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9542\")",
+            "coverageLimitCode": "PL_ACC",
+            "coverageLimitLabel": "INC/ACC VHR",
+            "coverageLimitValue": "15",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9545\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9544\")",
+            "coverageLimitCode": "PL_PAN",
+            "coverageLimitLabel": "panne VHR",
+            "coverageLimitValue": "7",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9547\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9546\")",
+            "coverageLimitCode": "PL_IND",
+            "coverageLimitLabel": "montant indemnisation par jour",
+            "coverageLimitValue": "40",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9549\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9548\")",
+            "coverageLimitCode": "PL_VOL",
+            "coverageLimitLabel": "VOL VHR",
+            "coverageLimitValue": "30",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf954b\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf954a\")",
+            "coverageLimitCode": "PL_ACC",
+            "coverageLimitLabel": "INC/ACC VHR",
+            "coverageLimitValue": "15",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf954d\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf954c\")",
+            "coverageLimitCode": "PL_PAN",
+            "coverageLimitLabel": "panne VHR",
+            "coverageLimitValue": "7",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf954f\")",
+        "isSelected": true,
+        "coverageCode": "ELT_IV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf954e\")",
+            "coverageLimitCode": "PL_IND",
+            "coverageLimitLabel": "montant indemnisation par jour",
+            "coverageLimitValue": "40",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9551\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9550\")",
+            "coverageLimitCode": "PL_VOL",
+            "coverageLimitLabel": "VOL VHR",
+            "coverageLimitValue": "30",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9553\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9552\")",
+            "coverageLimitCode": "PL_ACC",
+            "coverageLimitLabel": "INC/ACC VHR",
+            "coverageLimitValue": "15",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9555\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9554\")",
+            "coverageLimitCode": "PL_PAN",
+            "coverageLimitLabel": "panne VHR",
+            "coverageLimitValue": "7",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9557\")",
+        "isSelected": true,
+        "coverageCode": "ELT_EC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9556\")",
+            "coverageLimitCode": "PL_IND",
+            "coverageLimitLabel": "montant indemnisation par jour",
+            "coverageLimitValue": "40",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9559\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9558\")",
+            "coverageLimitCode": "PL_VOL",
+            "coverageLimitLabel": "en cas de vol",
+            "coverageLimitValue": "30",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf955b\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf955a\")",
+            "coverageLimitCode": "PL_ACC",
+            "coverageLimitLabel": "en cas d'accident",
+            "coverageLimitValue": "15",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf955d\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf955c\")",
+            "coverageLimitCode": "PL_PAN",
+            "coverageLimitLabel": "en cas de panne",
+            "coverageLimitValue": "7",
+            "coverageLimitUnit": "jour"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf955f\")",
+        "isSelected": true,
+        "coverageCode": "ELT_AV",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf955e\")",
+            "coverageLimitCode": "PL_IND",
+            "coverageLimitLabel": "montant indemnisation par jour",
+            "coverageLimitValue": "40",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "VHR",
+        "correspondingUTCode": "05924",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9561\")",
+        "isSelected": true,
+        "coverageCode": "ELT_CN",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9560\")",
+            "coverageDeductibleCode": "FR_CN",
+            "coverageDeductibleLabel": "franchise normale",
+            "coverageDeductibleValue": "380",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "CatNat",
+        "correspondingUTCode": "00084",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9563\")",
+        "isSelected": true,
+        "coverageCode": "ELT_BG",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9562\")",
+            "coverageDeductibleCode": "FR_BDG",
+            "coverageDeductibleLabel": "Franchise Bris de glace",
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "55",
+            "coverageDeductibleMaxValue": "210",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "FRANCHISE_STANDARD"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "BDG",
+        "correspondingUTCode": "00044",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9565\")",
+        "isSelected": true,
+        "coverageCode": "ELT_CT",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a3557e273c7268bf9564\")",
+            "coverageLimitCode": "PL_VAD",
+            "coverageLimitLabel": "Valeur à dire d'expert"
+          }
+        ],
+        "agreementCoverageFamilly": "ELEMENTAIRE",
+        "agreementCoverageParentReference": "CatTec",
+        "correspondingUTCode": "00034",
+        "agreementCoverageType": "SOCLE"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2e6\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "0"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "0"
+          }
+        },
+        "coverageCode": "ClimAttentat",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2e2\")",
+            "coverageDeductibleAmount": {
+              "amount": "500"
+            },
+            "coverageDeductibleValue": "500",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_FORF"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2e3\")",
+            "coverageDeductibleAmount": {
+              "amount": "250"
+            },
+            "coverageDeductibleValue": "250",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_FORF"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2e4\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "160",
+            "coverageDeductibleMaxValue": "385",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_PROP"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2e5\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": true,
+            "isSelected": true,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP"
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "0"
+          }
+        },
+        "rank": 7,
+        "isDisplayed": true,
+        "linkedCoverages": [
+          "Clim",
+          "ATTENTAT"
+        ],
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "0"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2e7\")",
+        "isSelected": true,
+        "coverageCode": "ASS_PSY",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 10,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2e8\")",
+        "isSelected": true,
+        "coverageCode": "REDUC_AUTOSUR",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 12,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2ea\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "18.17"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "19.80"
+          }
+        },
+        "coverageCode": "SDC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2e9\")",
+            "coverageLimitValue": "250000",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "19.32"
+          }
+        },
+        "rank": 3,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "21.06"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2ef\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "46.02"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "54.30"
+          }
+        },
+        "coverageCode": "DO",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2eb\")",
+            "coverageDeductibleAmount": {
+              "amount": "500"
+            },
+            "coverageDeductibleValue": "500",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_FORF",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "11.53"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2ec\")",
+            "coverageDeductibleAmount": {
+              "amount": "250"
+            },
+            "coverageDeductibleValue": "250",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_FORF",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "19.73"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2ed\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "160",
+            "coverageDeductibleMaxValue": "385",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_PROP",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "15.67"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2ee\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": true,
+            "isSelected": true,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP",
+            "premiumImpact": {
+              "amount": "0.00"
+            },
+            "netPremiumImpact": {
+              "amount": "0.00"
+            },
+            "annualPremiumImpact": {
+              "amount": "0.00"
+            },
+            "annualNetPremiumImpact": {
+              "amount": "0.00"
+            },
+            "premiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "netPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "annualPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "annualNetPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            }
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "48.96"
+          }
+        },
+        "rank": 9,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "57.77"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f3\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "58.46"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "70.15"
+          }
+        },
+        "coverageCode": "ASSVeh",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f0\")",
+            "coverageDeductibleAmount": {
+              "amount": "0"
+            },
+            "coverageDeductibleValue": "0",
+            "coverageDeductibleUnit": "km",
+            "defaultValueIndicator": false,
+            "isSelected": false
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f2\")",
+            "coverageDeductibleAmount": {
+              "amount": "0"
+            },
+            "coverageDeductibleValue": "0",
+            "coverageDeductibleUnit": "km",
+            "defaultValueIndicator": false,
+            "isSelected": false
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f1\")",
+            "coverageDeductibleAmount": {
+              "amount": "0"
+            },
+            "coverageDeductibleValue": "0",
+            "coverageDeductibleUnit": "km",
+            "defaultValueIndicator": false,
+            "isSelected": true
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "PACK",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "62.19"
+          }
+        },
+        "coverageCategory": {
+          "identifier": "PTranq",
+          "label": "Tranquillité",
+          "levelInPack": 2,
+          "levelInPackCode": "N2"
+        },
+        "rank": 2,
+        "levelInPack": 2,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "74.63"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f4\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "0.57"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "0.67"
+          }
+        },
+        "coverageCode": "SAD",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "0.60"
+          }
+        },
+        "rank": 15,
+        "isDisplayed": false,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "0.71"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f5\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "12.93"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "14.09"
+          }
+        },
+        "coverageCode": "DR",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "13.75"
+          }
+        },
+        "rank": 2,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "14.99"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f6\")",
+        "isSelected": true,
+        "coverageCode": "REDUC_EXPERVEO",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 13,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2fb\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "0"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "5.90"
+          }
+        },
+        "coverageCode": "ATTENTAT",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f7\")",
+            "coverageDeductibleAmount": {
+              "amount": "500"
+            },
+            "coverageDeductibleValue": "500",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_FORF"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f8\")",
+            "coverageDeductibleAmount": {
+              "amount": "250"
+            },
+            "coverageDeductibleValue": "250",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_FORF"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2f9\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "160",
+            "coverageDeductibleMaxValue": "385",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_PROP"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2fa\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": true,
+            "isSelected": true,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP"
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "0"
+          }
+        },
+        "rank": 0,
+        "isDisplayed": false,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "5.90"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea2fd\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "31.62"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "34.47"
+          }
+        },
+        "coverageCode": "SDC",
+        "limit": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2fc\")",
+            "coverageLimitValue": "1000000",
+            "coverageLimitUnit": "euro"
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "PACK",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "33.64"
+          }
+        },
+        "coverageCategory": {
+          "identifier": "PTranq",
+          "label": "Tranquillité",
+          "levelInPack": 2,
+          "levelInPackCode": "N2"
+        },
+        "rank": 1,
+        "levelInPack": 2,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "36.67"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea302\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "72.28"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "85.21"
+          }
+        },
+        "coverageCode": "IV",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2fe\")",
+            "coverageDeductibleAmount": {
+              "amount": "500"
+            },
+            "coverageDeductibleValue": "500",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_FORF",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "10.9"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea2ff\")",
+            "coverageDeductibleAmount": {
+              "amount": "250"
+            },
+            "coverageDeductibleValue": "250",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_FORF",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "27.87"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea300\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "160",
+            "coverageDeductibleMaxValue": "385",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_PROP",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "19.38"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea301\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": true,
+            "isSelected": true,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP",
+            "premiumImpact": {
+              "amount": "0.00"
+            },
+            "netPremiumImpact": {
+              "amount": "0.00"
+            },
+            "annualPremiumImpact": {
+              "amount": "0.00"
+            },
+            "annualNetPremiumImpact": {
+              "amount": "0.00"
+            },
+            "premiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "netPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "annualPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "annualNetPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            }
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "76.89"
+          }
+        },
+        "rank": 8,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "90.65"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea303\")",
+        "isSelected": true,
+        "coverageCode": "REDUC_HERTZ",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 11,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea304\")",
+        "isSelected": true,
+        "coverageCode": "REDUC_CARTE_GRISE",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 14,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea305\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "21.88"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "25.82"
+          }
+        },
+        "coverageCode": "IND",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "23.29"
+          }
+        },
+        "rank": 10,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "27.47"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea306\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "89.60"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "120.96"
+          }
+        },
+        "coverageCode": "RC",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "95.32"
+          }
+        },
+        "rank": 1,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "128.68"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea307\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "36.03"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "43.24"
+          }
+        },
+        "coverageCode": "VHR",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "38.33"
+          }
+        },
+        "rank": 11,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "46.00"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea30c\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "5.63"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "6.64"
+          }
+        },
+        "coverageCode": "Clim",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea308\")",
+            "coverageDeductibleAmount": {
+              "amount": "500"
+            },
+            "coverageDeductibleValue": "500",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_FORF",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "5.98"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea309\")",
+            "coverageDeductibleAmount": {
+              "amount": "250"
+            },
+            "coverageDeductibleValue": "250",
+            "coverageDeductibleType": "FORF",
+            "coverageDeductibleUnit": "euros",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_FORF",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "19.93"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea30a\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "160",
+            "coverageDeductibleMaxValue": "385",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "MINOREE",
+            "coverageDeductibleNature": "REDUITE_PROP",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "11.95"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea30b\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "410",
+            "coverageDeductibleMaxValue": "810",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": true,
+            "isSelected": true,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "STANDARD_PROP",
+            "premiumImpact": {
+              "amount": "0.00"
+            },
+            "netPremiumImpact": {
+              "amount": "0.00"
+            },
+            "annualPremiumImpact": {
+              "amount": "0.00"
+            },
+            "annualNetPremiumImpact": {
+              "amount": "0.00"
+            },
+            "premiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "netPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "annualPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "annualNetPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            }
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "5.99"
+          }
+        },
+        "rank": 0,
+        "isDisplayed": false,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "7.06"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea30e\")",
+        "isSelected": true,
+        "coverageCode": "CAT",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "rank": 6,
+        "isDisplayed": true,
+        "linkedCoverages": [
+          "CatNat",
+          "CatTec"
+        ],
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea30f\")",
+        "isSelected": true,
+        "coverageCode": "CatNat",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "rank": 0,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea310\")",
+        "isSelected": true,
+        "coverageCode": "AIDE_CONSTAT",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 8,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea312\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "24.91"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "29.89"
+          }
+        },
+        "coverageCode": "ASSVeh",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea311\")",
+            "coverageDeductibleAmount": {
+              "amount": "30"
+            },
+            "coverageDeductibleValue": "30",
+            "coverageDeductibleUnit": "km",
+            "defaultValueIndicator": false,
+            "isSelected": true
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "26.50"
+          }
+        },
+        "rank": 4,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "31.80"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea316\")",
+        "isSelected": true,
+        "premium": {
+          "amount": {
+            "amount": "26.74"
+          }
+        },
+        "netPremium": {
+          "amount": {
+            "amount": "31.55"
+          }
+        },
+        "coverageCode": "BDG",
+        "deductible": [
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea315\")",
+            "coverageDeductibleType": "PROP",
+            "defaultValueIndicator": false,
+            "isSelected": false,
+            "coverageDeductibleLevel": "RACHETEE",
+            "coverageDeductibleNature": "RACHAT_TOTAL",
+            "netPremiumImpactBeforeRebate": {
+              "amount": "16.25"
+            }
+          },
+          {
+            "_id": "ObjectId(\"5ec3a34eb029e566d06ea314\")",
+            "coverageDeductibleAmount": {
+              "amount": "10"
+            },
+            "coverageDeductibleValue": "10",
+            "coverageDeductibleMinValue": "55",
+            "coverageDeductibleMaxValue": "210",
+            "coverageDeductibleType": "PROP",
+            "coverageDeductibleUnit": "pourcentage",
+            "defaultValueIndicator": true,
+            "isSelected": true,
+            "coverageDeductibleLevel": "STANDARD",
+            "coverageDeductibleNature": "FRANCHISE_STANDARD",
+            "premiumImpact": {
+              "amount": "0.00"
+            },
+            "netPremiumImpact": {
+              "amount": "0.00"
+            },
+            "annualPremiumImpact": {
+              "amount": "0.00"
+            },
+            "annualNetPremiumImpact": {
+              "amount": "0.00"
+            },
+            "premiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "netPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "annualPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            },
+            "annualNetPremiumImpactBeforeRebate": {
+              "amount": "0.00"
+            }
+          }
+        ],
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "premiumBeforeRebate": {
+          "amount": {
+            "amount": "28.44"
+          }
+        },
+        "rank": 5,
+        "isDisplayed": true,
+        "netPremiumBeforeRebate": {
+          "amount": {
+            "amount": "33.56"
+          }
+        },
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea318\")",
+        "isSelected": true,
+        "coverageCode": "CatTec",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "SOCLE",
+        "rank": 0,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea319\")",
+        "isSelected": true,
+        "coverageCode": "DEPANNE_1_H",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 1,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea31c\")",
+        "isSelected": true,
+        "coverageCode": "AXA_GLASS",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 6,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea31d\")",
+        "isSelected": true,
+        "coverageCode": "ALLO_MECANO",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 4,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea31e\")",
+        "isSelected": true,
+        "coverageCode": "GARAGE_AGREE",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 5,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea31f\")",
+        "isSelected": true,
+        "coverageCode": "GEO_DEPANNE",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 7,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CoverageComponent",
+        "_id": "ObjectId(\"5ec3a34eb029e566d06ea320\")",
+        "isSelected": true,
+        "coverageCode": "MON_AXA",
+        "agreementCoverageFamilly": "COMMERCIALE",
+        "agreementCoverageType": "AVANTAGE",
+        "rank": 9,
+        "isDisplayed": false,
+        "variationRate": "1"
+      },
+      {
+        "_t": "CommercialActionComponent",
+        "_id": "ObjectId(\"5ec3a2887e273c7268bf9475\")",
+        "code": "CT_GLOBAL",
+        "commercialActionType": "CT",
+        "technicalCoefficient": "0.94"
+      },
+      {
+        "_t": "CommercialActionComponent",
+        "_id": "ObjectId(\"5ec3a2a67e273c7268bf94e9\")",
+        "code": "CT_MACHINE",
+        "rebateAmount": {
+          "amount": "0"
+        },
+        "commercialActionType": "CT",
+        "technicalCoefficient": "1.00"
+      },
+      {
+        "_t": "BillingPaymentComponent",
+        "_id": "ObjectId(\"5ec3a204b029e566d06ea1f9\")",
+        "billingPlanCode": "YEARLY",
+        "billingDay": 5
+      }
+    ],
+    "portfolio": {
+      "portfolioId": "0056912300"
+    },
+    "currentSubscriptionChannel": "AGA",
+    "originalSubscriptionChannel": "AGA",
+    "utPremium": [
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9566\")",
+        "amount": {
+          "amount": "89.60"
+        },
+        "UT": {
+          "UTcode": "00014"
+        },
+        "netAmount": {
+          "amount": "120.96"
+        },
+        "taxRate": {
+          "amount": "35.00"
+        },
+        "codeTax": "02",
+        "codeUT": "00014",
+        "taxAmount": {
+          "amount": "31.36"
+        }
+      },
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9567\")",
+        "amount": {
+          "amount": "12.93"
+        },
+        "UT": {
+          "UTcode": "00024"
+        },
+        "netAmount": {
+          "amount": "14.09"
+        },
+        "taxRate": {
+          "amount": "9.00"
+        },
+        "codeTax": "02",
+        "codeUT": "00024",
+        "taxAmount": {
+          "amount": "1.16"
+        }
+      },
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9568\")",
+        "amount": {
+          "amount": "83.43"
+        },
+        "UT": {
+          "UTcode": "00034"
+        },
+        "netAmount": {
+          "amount": "98.45"
+        },
+        "taxRate": {
+          "amount": "18.00"
+        },
+        "codeTax": "02",
+        "codeUT": "00034",
+        "taxAmount": {
+          "amount": "15.02"
+        }
+      },
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf9569\")",
+        "amount": {
+          "amount": "26.74"
+        },
+        "UT": {
+          "UTcode": "00044"
+        },
+        "netAmount": {
+          "amount": "31.55"
+        },
+        "taxRate": {
+          "amount": "18.00"
+        },
+        "codeTax": "02",
+        "codeUT": "00044",
+        "taxAmount": {
+          "amount": "4.81"
+        }
+      },
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf956a\")",
+        "amount": {
+          "amount": "57.38"
+        },
+        "UT": {
+          "UTcode": "00054"
+        },
+        "netAmount": {
+          "amount": "67.71"
+        },
+        "taxRate": {
+          "amount": "18.00"
+        },
+        "codeTax": "02",
+        "codeUT": "00054",
+        "taxAmount": {
+          "amount": "10.33"
+        }
+      },
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf956b\")",
+        "amount": {
+          "amount": "5.00"
+        },
+        "UT": {
+          "UTcode": "00084"
+        },
+        "netAmount": {
+          "amount": "5.80"
+        },
+        "taxRate": {
+          "amount": "16.07"
+        },
+        "codeTax": "02",
+        "codeUT": "00084",
+        "taxAmount": {
+          "amount": "0.80"
+        }
+      },
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf956c\")",
+        "amount": {
+          "amount": "49.79"
+        },
+        "UT": {
+          "UTcode": "02934"
+        },
+        "netAmount": {
+          "amount": "54.27"
+        },
+        "taxRate": {
+          "amount": "9.00"
+        },
+        "codeTax": "02",
+        "codeUT": "02934",
+        "taxAmount": {
+          "amount": "4.48"
+        }
+      },
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf956d\")",
+        "amount": {
+          "amount": "119.40"
+        },
+        "UT": {
+          "UTcode": "05924"
+        },
+        "netAmount": {
+          "amount": "143.28"
+        },
+        "taxRate": {
+          "amount": "20.00"
+        },
+        "codeTax": "02",
+        "codeUT": "05924",
+        "taxAmount": {
+          "amount": "23.88"
+        }
+      },
+      {
+        "_id": "ObjectId(\"5ec3a3557e273c7268bf956e\")",
+        "amount": {
+          "amount": "0.57"
+        },
+        "UT": {
+          "UTcode": "05964"
+        },
+        "netAmount": {
+          "amount": "0.67"
+        },
+        "taxRate": {
+          "amount": "18.00"
+        },
+        "codeTax": "02",
+        "codeUT": "05964",
+        "taxAmount": {
+          "amount": "0.10"
+        }
+      }
+    ],
+    "activityInAgreement": [
+      {
+        "_t": "SupportingDocumentRequest",
+        "_id": "ObjectId(\"5ec3a3a37e273c7268bf95e7\")",
+        "state": "W"
+      },
+      {
+        "_t": "AgreementRequest",
+        "_id": "ObjectId(\"5ec3a204b029e566d06ea1fa\")",
+        "rank": 1,
+        "creationDate": "ISODate(\"2020-05-19T09:15:26.237Z\")",
+        "effectivePeriod": {
+          "startDateTime": "ISODate(\"2020-06-19T00:00:00.000Z\")"
+        },
+        "description": "1",
+        "issueDate": "ISODate(\"2020-06-19T00:00:00.000Z\")",
+        "requestDate": "ISODate(\"2020-05-19T09:15:26.237Z\")",
+        "code": "CA001",
+        "administratorIdentifier": "S606393"
+      }
+    ],
+    "agreementScore": [
+      {
+        "_id": "ObjectId(\"5ec3a22c7e273c7268bf93ec\")",
+        "value": "0",
+        "code": "ScoreSinRC"
+      },
+      {
+        "_id": "ObjectId(\"5ec3a22c7e273c7268bf93ed\")",
+        "value": "0",
+        "code": "ScoreSinBDG"
+      },
+      {
+        "_id": "ObjectId(\"5ec3a22c7e273c7268bf93ee\")",
+        "value": "0",
+        "code": "ScoreSinDO"
+      },
+      {
+        "_id": "ObjectId(\"5ec3a22c7e273c7268bf93ef\")",
+        "value": "0",
+        "code": "ScoreSinIV"
+      },
+      {
+        "_id": "ObjectId(\"5ec3a22c7e273c7268bf93f0\")",
+        "value": "0",
+        "code": "ScoreAggravation"
+      }
+    ],
+    "isBasedOnProduct": {
+      "codeUV": "09554",
+      "codeFormula": "F5",
+      "pricingVersion": "5.0",
+      "productVersion": "5.0",
+      "pricingType": "STANDARD_RATE",
+      "pricingDate": "ISODate(\"2020-05-19T09:08:20.642Z\")"
+    },
+    "productCode": "A90",
+    "currencyCode": "EUR",
+    "insuranceAgreementStatusCode": "QUOTATION_CONTRACTUALISED_UNSIGNED",
+    "relatedPremium": {
+      "amount": {
+        "amount": "444.84"
+      },
+      "netAmount": {
+        "amount": "542.68"
+      },
+      "attachedFinancialScheduler": {
+        "incluedPremiumInstallment": [
+          {
+            "_id": "ObjectId(\"5ec3a3597e273c7268bf957f\")",
+            "amount": {
+              "amount": "61.65"
+            },
+            "effectivePeriod": {
+              "endDateTime": "ISODate(\"2021-06-01T10:00:00.000Z\")",
+              "startDateTime": "ISODate(\"2020-06-19T10:00:00.000Z\")"
+            },
+            "identifier": "0",
+            "netInitialPremiumAmount": {
+              "amount": "80.00"
+            },
+            "type": "downPayment",
+            "netAmount": {
+              "amount": "80.00"
+            },
+            "netForcedAmount": {
+              "amount": "80"
+            },
+            "premiumInstallmentDetails": [
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9571\")",
+                "code": "ASSISTANCE",
+                "amount": {
+                  "amount": "136.21"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9572\")",
+                "code": "CATNAT",
+                "amount": {
+                  "amount": "5.51"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9573\")",
+                "code": "DR",
+                "amount": {
+                  "amount": "13.40"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95ae\")",
+                "code": "ASSISTANCE",
+                "amount": {
+                  "amount": "19.86"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95af\")",
+                "code": "CATNAT",
+                "amount": {
+                  "amount": "0.80"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b0\")",
+                "code": "DR",
+                "amount": {
+                  "amount": "1.95"
+                }
+              }
+            ],
+            "downUTPremium": [
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9574\")",
+                "UT": {
+                  "UTcode": "00014"
+                },
+                "taxRate": {
+                  "amount": "35.00"
+                },
+                "totalBalance": {
+                  "amount": "85.18"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9575\")",
+                "UT": {
+                  "UTcode": "00024"
+                },
+                "taxRate": {
+                  "amount": "9.00"
+                },
+                "totalBalance": {
+                  "amount": "12.29"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9576\")",
+                "UT": {
+                  "UTcode": "00034"
+                },
+                "taxRate": {
+                  "amount": "18.00"
+                },
+                "totalBalance": {
+                  "amount": "79.32"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9577\")",
+                "UT": {
+                  "UTcode": "00044"
+                },
+                "taxRate": {
+                  "amount": "18.00"
+                },
+                "totalBalance": {
+                  "amount": "25.42"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9578\")",
+                "UT": {
+                  "UTcode": "00054"
+                },
+                "taxRate": {
+                  "amount": "18.00"
+                },
+                "totalBalance": {
+                  "amount": "54.55"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf9579\")",
+                "UT": {
+                  "UTcode": "00084"
+                },
+                "taxRate": {
+                  "amount": "16.07"
+                },
+                "totalBalance": {
+                  "amount": "4.75"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf957a\")",
+                "UT": {
+                  "UTcode": "02934"
+                },
+                "taxRate": {
+                  "amount": "9.00"
+                },
+                "totalBalance": {
+                  "amount": "47.33"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf957b\")",
+                "UT": {
+                  "UTcode": "05924"
+                },
+                "taxRate": {
+                  "amount": "20.00"
+                },
+                "totalBalance": {
+                  "amount": "113.51"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf957c\")",
+                "UT": {
+                  "UTcode": "05964"
+                },
+                "taxRate": {
+                  "amount": "18.00"
+                },
+                "totalBalance": {
+                  "amount": "0.54"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b1\")",
+                "UT": {
+                  "UTcode": "00014"
+                },
+                "taxRate": {
+                  "amount": "35.00"
+                },
+                "totalBalance": {
+                  "amount": "12.42"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b2\")",
+                "UT": {
+                  "UTcode": "00024"
+                },
+                "taxRate": {
+                  "amount": "9.00"
+                },
+                "totalBalance": {
+                  "amount": "1.79"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b3\")",
+                "UT": {
+                  "UTcode": "00034"
+                },
+                "taxRate": {
+                  "amount": "18.00"
+                },
+                "totalBalance": {
+                  "amount": "11.56"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b4\")",
+                "UT": {
+                  "UTcode": "00044"
+                },
+                "taxRate": {
+                  "amount": "18.00"
+                },
+                "totalBalance": {
+                  "amount": "3.71"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b5\")",
+                "UT": {
+                  "UTcode": "00054"
+                },
+                "taxRate": {
+                  "amount": "18.00"
+                },
+                "totalBalance": {
+                  "amount": "7.95"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b6\")",
+                "UT": {
+                  "UTcode": "00084"
+                },
+                "taxRate": {
+                  "amount": "16.07"
+                },
+                "totalBalance": {
+                  "amount": "0.69"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b7\")",
+                "UT": {
+                  "UTcode": "02934"
+                },
+                "taxRate": {
+                  "amount": "9.00"
+                },
+                "totalBalance": {
+                  "amount": "6.90"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b8\")",
+                "UT": {
+                  "UTcode": "05924"
+                },
+                "taxRate": {
+                  "amount": "20.00"
+                },
+                "totalBalance": {
+                  "amount": "16.55"
+                }
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95b9\")",
+                "UT": {
+                  "UTcode": "05964"
+                },
+                "taxRate": {
+                  "amount": "18.00"
+                },
+                "totalBalance": {
+                  "amount": "0.08"
+                }
+              }
+            ],
+            "downFinancialProvision": [
+              {
+                "_id": "ObjectId(\"5ec3a3597e273c7268bf957e\")",
+                "includedFinancialProvisionElement": [
+                  {
+                    "_t": "BombingAttackTax",
+                    "_id": "ObjectId(\"5ec3a3597e273c7268bf957d\")",
+                    "amount": {
+                      "amount": "5.61"
+                    }
+                  }
+                ]
+              },
+              {
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95bb\")",
+                "includedFinancialProvisionElement": [
+                  {
+                    "_t": "BombingAttackTax",
+                    "_id": "ObjectId(\"5ec3a3957e273c7268bf95ba\")",
+                    "amount": {
+                      "amount": "5.61"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "premiumInstallmentNoticedCount": 0,
+        "premiumInstallmentUnpaidCount": 0,
+        "premiumInstallmentLawsuitsCount": 0,
+        "paymentMethod": "AUTOMATED_PAYMENT",
+        "includedFinancialProvision": [
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95bc\")",
+            "calculationMethodCode": "3"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95be\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "BombingAttackTax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95bd\")",
+                "amount": {
+                  "amount": "5.90"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95c0\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95bf\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95c2\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95c1\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95c4\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95c3\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95c6\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95c5\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95c8\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95c7\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95ca\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95c9\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95cc\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95cb\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95ce\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95cd\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95d0\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95cf\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95d2\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95d1\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95d4\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95d3\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95d6\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95d5\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95d8\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95d7\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95da\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95d9\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95dc\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95db\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95de\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95dd\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95e0\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95df\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95e2\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95e1\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95e4\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95e3\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3957e273c7268bf95e6\")",
+            "includedFinancialProvisionElement": [
+              {
+                "_t": "Tax",
+                "_id": "ObjectId(\"5ec3a3957e273c7268bf95e5\")",
+                "amount": {
+                  "amount": "0.00"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "premiumDetails": [
+        {
+          "_id": "ObjectId(\"5ec3a3557e273c7268bf956f\")",
+          "code": "YEARLY",
+          "netAmount": {
+            "amount": "542.69"
+          }
+        },
+        {
+          "_id": "ObjectId(\"5ec3a3557e273c7268bf9570\")",
+          "code": "PRIME_REF",
+          "netAmount": {
+            "amount": "1085.38"
+          }
+        },
+        {
+          "_id": "ObjectId(\"5ec3a3597e273c7268bf95ab\")",
+          "code": "DR",
+          "netAmount": {
+            "amount": "14.09"
+          }
+        },
+        {
+          "_id": "ObjectId(\"5ec3a3597e273c7268bf95ac\")",
+          "code": "ASSISTANCE",
+          "netAmount": {
+            "amount": "143.28"
+          }
+        },
+        {
+          "_id": "ObjectId(\"5ec3a3597e273c7268bf95ad\")",
+          "code": "CATNAT",
+          "netAmount": {
+            "amount": "5.80"
+          }
+        }
+      ],
+      "annualAmountTaxeIncluded": {
+        "amount": "542.68"
+      }
+    },
+    "documentInAgreement": [
+      {
+        "_id": "ObjectId(\"5ec3a3a37e273c7268bf95eb\")",
+        "documentType": "JUSTIFICATIF",
+        "relatedDocument": [
+          {
+            "_id": "ObjectId(\"5ec3a3a37e273c7268bf95e8\")",
+            "identifier": "RELEVE_INFO_CP",
+            "timeDelayMeasurement": {
+              "unitCode": "DAYS",
+              "value": "45"
+            },
+            "status": "PENDING"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3a37e273c7268bf95e9\")",
+            "identifier": "CERTIFICAT_IMMATRICULATION",
+            "timeDelayMeasurement": {
+              "unitCode": "DAYS",
+              "value": "45"
+            },
+            "status": "PENDING"
+          },
+          {
+            "_id": "ObjectId(\"5ec3a3a37e273c7268bf95ea\")",
+            "identifier": "PERMIS_CONDUIRE",
+            "timeDelayMeasurement": {
+              "unitCode": "DAYS",
+              "value": "45"
+            },
+            "status": "PENDING"
+          }
+        ],
+        "documentFolderNumber": "95f8c958-9544-4346-acad-13168e752ad5"
+      }
+    ],
+    "productionAct": "NEW_BUSINESS",
+    "businessExpirationDate": "ISODate(\"2020-08-17T09:11:01.656Z\")"
+  },
+  "productRange": "VEHICLE_INSURANCE",
+  "draftStatus": "QUOTATION_CONTRACTUALISED_UNSIGNED",
+  "lastUpdateDate": "ISODate(\"2020-05-19T09:15:26.237Z\")",
+  "endDate": "ISODate(\"2020-09-16T09:15:26.237Z\")",
+  "userId": "S606393",
+  "projectNumber": "RRAKRPN3",
+  "businessExpirationDate": "Date(-62135596800000)",
+  "technicalExpirationDate": "ISODate(\"2020-08-17T09:15:26.237Z\")",
+  "dematerialisationOfDocuments": true,
+  "administratorIdentifier": "S606393",
+  "crmOpportunity": "",
+  "parentDraftNumber": "RK73YHT2X8",
+  "originalDraftStatus": "QUOTATION_ENGAGING",
+  "replayCounter": 0
+}
